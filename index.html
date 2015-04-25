@@ -195,20 +195,6 @@
 					</div><!--//section-inner-->                 
 				</section><!--//section-->
 
-				<section class="github section">
-					<div class="section-inner">
-						<h2 class="heading">My GitHub</h2>             
-						<div id="feed" class="ghfeed">
-						<script>
-							GitHubActivity.feed({
-								username: "oharaandrew314",
-								selector: "#feed",
-								limit: 20 // optional
-							});
-						</script>
-						</div><!--//ghfeed-->
-					</div><!--//secton-inner-->
-				</section><!--//section-->
 			</div><!--//primary-->
 
 			<!-- Sidebar -->
@@ -295,6 +281,21 @@
 						</div><!--//content-->
 					</div><!--//section-inner-->
 				</aside><!--//section-->
+
+				<section class="github section">
+					<div class="section-inner">
+						<h2 class="heading">My GitHub Feed</h2>             
+						<div id="feed" class="ghfeed">
+						<script type="text/javascript">
+							GitHubActivity.feed({
+								username: "oharaandrew314",
+								selector: "#feed",
+								limit: 20 // optional
+							});
+						</script>
+						</div><!--//ghfeed-->
+					</div><!--//secton-inner-->
+				</section><!--//section-->
 
 			</div><!--//secondary-->    
 		</div><!--//row-->
