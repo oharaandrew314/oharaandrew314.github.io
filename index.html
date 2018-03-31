@@ -48,117 +48,72 @@
 			<img class="profile-image img-responsive img-rounded pull-left" src="assets/images/portrait.jpg" alt="Andrew O'Hara" />
 			<div class="profile-content pull-left">
 				<h1 class="name">Andrew O'Hara</h1>
-				<h2 class="desc">Software Developer/Architect</h2>   
-				<h3 class="desc">Java/Kotlin, Python, Serverless, AWS</h3>
-				<ul class="social list-inline">
-					<li><a href="https://github.com/oharaandrew314"><i class="fa fa-github"></i></a></li> 
+				<h2 class="desc">Backend Software Developer</h2>
+				<ul class="list-inline">
 					<li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span> Ottawa, Ontario</li>
 				</ul>
-			</div><!--//profile-->            
+			</div><!--//profile-->
+			
+			<a class="btn btn-primary pull-right" href="https://docs.google.com/document/d/17lv4x3Mmt4x2jam3L87p1X9iL9f26M6cQTNByM1hCow/export?format=pdf"><i class="fa fa-file-pdf-o"></i> Download my Resume</a>
 		</div><!--//container-->
 	</header><!--//header-->
 	
 	<div class="container sections-wrapper">
 		<div class="row">
-			<div class="primary col-md-8 col-sm-12 col-xs-12">
-
-				<!-- About -->
-				<section class="about section">
-					<div class="section-inner">
-						<h2 class="heading">Current Projects in Production</h2>
-						<div class="content">
-							<ul>
-								<li>
-									<a href="https://omnireceipts.andrewohara.io">
-									<img width="30" height="30" src="https://cdn.rawgit.com/oharaandrew314/Omni-Receipts-Android/webView/app/src/main/res/mipmap-mdpi/ic_launcher.png"/>
-										Omni Receipts
-									</a>
-									- A quick and convenient consumer receipt scanner app for web and Android</li>
-							</ul>
-						</div><!--//content-->
-					</div><!--//section-inner-->                 
-				</section><!--//section-->
+			<div class="primary col-md-12 col-sm-12 col-xs-12">
 	
 				<!-- Other Project -->
 			   <section class="projects section">
 					<div class="section-inner">
-						<h2 class="heading">Other Projects</h2>
+						<h2 class="heading">Recent Projects</h2>
 						<div class="content">   
 
-							<div class="item row">
-								<a class="col-md-4 col-sm-4 col-xs-12" href="assets/images/projects/tinkertech.png" target="_blank">
-								<img class="img-responsive project-image thumbnail" src="assets/images/projects/tinkertech.png" alt="TinkerTech - Factorio Mod Manager" />
-								</a>
-								<div class="desc col-md-8 col-sm-8 col-xs-12">
-									<h3 class="title">TinkerTech - Factorio Mod Manager</a> <span class="label label-theme">Open Source</span></h3>
-									<p>Java Mod Manager for Factorio.  Unfortunately, the developers announced an integrated manager soon after I began development.  However, I managed to learn a lot about Java's new GUI framework, Java FX.  Most interestingly, I learned how to combine FX's FXML controllers with Guice Dependency injection. I wish I could have investigated this symbiotic relationship further, but there was no more need for this app, so it died in its infancy.</p>
-									<p><a class="more-link" href="https://github.com/oharaandrew314/TinkerTech"><i class="fa fa-external-link"></i> Find it on Github</a></p>
-								</div><!--//desc-->                          
-							</div><!--//item-->
+							<div class="item">
+								<div class="desc">
+									<h3 class="title">
+										<img src="assets/images/kotlin.png" width="24" height="24"/>
+										<a href="https://github.com/oharaandrew314/aws-lambda-rest" target="_blank">aws-lambda-rest</a></h3>
+									<p>JVM micro-framework for writing RESTful APIs on AWS Lambda, written in Kotlin.</p>
 
-
-							<div class="item row">
-								<a class="col-md-4 col-sm-4 col-xs-12" href="assets/images/projects/tinkertime.png" target="_blank">
-								<img class="img-responsive project-image thumbnail" src="assets/images/projects/tinkertime.png" alt="TinkerTime - KSP Mod Manager" />
-								</a>
-								<div class="desc col-md-8 col-sm-8 col-xs-12">
-									<h3 class="title">TinkerTime - KSP Mod Manager <span class="label label-theme">Open Source</span></h3>
-									<p>Java Mod Manager for Kerbal Space Program.  It was perhaps one of my proudest achievements, which accumulated over 4 000 downloads during its lifetime.  However, I eventually stopped playing the game, and decided to end support.</p>
-									<p><a class="more-link" href="https://github.com/oharaandrew314/TinkerTime"><i class="fa fa-external-link"></i> Find it on Github</a></p>
-								</div><!--//desc-->                          
-							</div><!--//item-->
-
-							<div class="item row">
-								<a class="col-md-4 col-sm-4 col-xs-12" href="assets/images/projects/wot.png" target="_blank">
-								<img class="img-responsive project-image thumbnail" src="assets/images/projects/wot.png" alt="The Wheel of Time - Conquest" />
-								</a>
-								<div class="desc col-md-8 col-sm-8 col-xs-12">
-									<h3 class="title">The Wheel of Time - Conquest <span class="label label-theme">Open Source</span></h3>
-									<p>Fan game based off of the Wheel of Time Novel Series, in the fashion of a Fire Emblem Game.  Developed on top of an in-house 2D grid game engine.  It currently looks and sounds beautiful, and is somewhat playable, but I eventually lost interest in this project.</p>
-									<p><a class="more-link" href="https://github.com/oharaandrew314/The-Wheel-of-Time"><i class="fa fa-external-link"></i> Find it on Github</a></p>
+									<p>
+										I wanted to create a framework which would reduce the boilerplate code and number of functions required to create a simple API on AWS Lambda.
+									</p>
 								</div><!--//desc-->                          
 							</div><!--//item-->
 	
+							<div class="item">
+								<div class="desc">
+									<h3 class="title">
+										<img src="assets/images/python.png" width="24" height="24"/>
+										<a href="https://github.com/oharaandrew314/aws-lambda-pyauthlib" target="_blank">aws-lambda-pyauthlib</a></h3>
+									<p>A python helper library for creating AWS API Gateway Custom Authorizers.</p>
+
+									<p>
+										It reduces the boilerplate of your functions with its event parser and policy builder.
+									</p>
+								</div><!--//desc-->                          
+							</div><!--//item-->
+
 						</div><!--//content-->  
 					</div><!--//section-inner-->                 
 				</section><!--//section-->
 
-			</div><!--//primary-->
-
-			<!-- Sidebar -->
-			<div class="secondary col-md-4 col-sm-12 col-xs-12">
-
-				<!-- Resume -->
-				<section class="hire section">
-					<div class="section-inner">
-						<h2 class="heading">Download My Resume</h2>
-						<div class="content">
-							<p>I work at <a href="https://prontoforms.com">ProntoForms Inc</a>, a trending SaaS with the goal of updating archaic paperwork for this millenium.</p>
-							
-							<p>I've had the incredible opportunity to begin revolutionizing our stack with modern cloud-native <a href="https://en.wikipedia.org/wiki/Serverless_computing">server-less</a> technologies.<p>
-
-							<p>I'd like to see this project through to a logical "end", but you can still get in contact with me.</p>
-							<a class="btn btn-cta-secondary" href="https://docs.google.com/document/d/17lv4x3Mmt4x2jam3L87p1X9iL9f26M6cQTNByM1hCow/export?format=pdf">Download my Resume</a><br/>
-						</div><!--//content-->
-					</div><!--//section-inner-->                 
-				</section><!--//section-->
-
 				<section class="github section">
-					<div class="section-inner">
-						<h2 class="heading">My GitHub Feed</h2>             
-						<div id="feed" class="ghfeed">
-						<script type="text/javascript">
-							GitHubActivity.feed({
-								username: "oharaandrew314",
-								selector: "#feed",
-								limit: 20 // optional
-							});
-						</script>
-						</div><!--//ghfeed-->
-					</div><!--//secton-inner-->
-				</section><!--//section-->
+						<div class="section-inner">
+							<h2 class="heading">My GitHub Feed</h2>             
+							<div id="feed" class="ghfeed">
+							<script type="text/javascript">
+								GitHubActivity.feed({
+									username: "oharaandrew314",
+									selector: "#feed",
+									limit: 20 // optional
+								});
+							</script>
+							</div><!--//ghfeed-->
+						</div><!--//secton-inner-->
+					</section><!--//section-->
 
-			</div><!--//secondary-->    
+			</div><!--//primary-->  
 		</div><!--//row-->
 	</div><!--//masonry-->
 	
@@ -172,7 +127,7 @@
 	<!-- Javascript -->          
 	<script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
 	<!-- custom js -->
 	<script type="text/javascript" src="assets/js/main.js"></script>            
